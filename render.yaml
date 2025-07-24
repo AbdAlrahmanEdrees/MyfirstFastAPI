@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-fastapi-app
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: ./start.sh
+    repo: https://github.com/AbdAlrahmanEdrees/MyfirstFastAPI
+    branch: main
